@@ -1,7 +1,8 @@
 package org.places.api_gateway.service;
 
-import org.places.api_gateway.config.Constants;
-import org.places.places.common.models.Place;
+import org.places.common.config.Constants;
+import org.places.common.models.Place;
+import org.places.common.models.Review;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -44,7 +45,7 @@ public class ApiGatewayService {
     @POST
     @Path(Constants.PATH_CREATE_REVIEW)
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response createReview(String reviewInfo) {
+    public Response createReview(Review review) {
         return Response.ok("created review").build();
     }
 }

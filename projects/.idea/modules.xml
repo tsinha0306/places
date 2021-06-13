@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/places-common/places-common.iml" filepath="$PROJECT_DIR$/places-common/places-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/places-parent.iml" filepath="$PROJECT_DIR$/places-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/users/users.iml" filepath="$PROJECT_DIR$/users/users.iml" />
     </modules>
   </component>
 </project>

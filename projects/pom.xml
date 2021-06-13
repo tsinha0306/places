@@ -10,6 +10,7 @@
     <modules>
         <module>api-gateway</module>
         <module>places-common</module>
+        <module>users</module>
     </modules>
 
     <packaging>pom</packaging>

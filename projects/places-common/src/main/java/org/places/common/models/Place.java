@@ -1,4 +1,4 @@
-package org.places.places.common.models;
+package org.places.common.models;
 
 public class Place {
     private String id;
