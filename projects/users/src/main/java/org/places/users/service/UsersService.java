@@ -2,6 +2,7 @@ package org.places.users.service;
 
 import org.places.common.config.Constants;
 import org.places.common.models.User;
+import org.places.common.models.UserCredential;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -21,6 +22,14 @@ public class UsersService {
     @POST
     @Path(Constants.PATH_REGISTER)
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response RegisterUser(User user) {
+    public Response registerUser(User user) {
         return Response.ok("User Registered").build();}
+
+    @POST
+    @Path(Constants.PATH_REGISTER)
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response authenticateUser(UserCredential userCredential) {
+        return Response.ok("User Registered").build();}
+
+
 }

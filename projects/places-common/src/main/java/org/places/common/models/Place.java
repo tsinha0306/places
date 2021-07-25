@@ -1,6 +1,8 @@
 package org.places.common.models;
 
-public class Place {
+import java.io.Serializable;
+
+public class Place implements Serializable {
     private String id;
     private String name;
     private Integer latitude;

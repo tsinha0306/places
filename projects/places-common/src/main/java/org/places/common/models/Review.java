@@ -1,6 +1,8 @@
 package org.places.common.models;
 
-public class Review {
+import java.io.Serializable;
+
+public class Review implements Serializable {
     private String id;
     private String place_id;
     private String description;
